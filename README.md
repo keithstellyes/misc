@@ -5,7 +5,7 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 # Rosetta Code entries:
 
 |Language|Problem|
-|-|-|
+|---|---|
 |Brainf|Array data structure|
 |MIPS|99 Bottles of Beer on the Wall|
 |MIPS|Factorial function|
