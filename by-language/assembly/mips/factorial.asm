@@ -5,8 +5,8 @@
 # Submitted to Rosetta Code      #
 ##################################
 
-# This example reads an integer from user, stores in register a0
-# Then, it uses a1 is a multiplier and target, it is set to 1
+# This example reads an integer from user, stores in register a1
+# Then, it uses a0 as a multiplier and target, it is set to 1
 
 # Pseudocode:
 # a0 = 1
