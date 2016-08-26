@@ -8,5 +8,6 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 |---|---|
 |Brainf|Array data structure|
 |MIPS|99 Bottles of Beer on the Wall|
+|MIPS|Even or Odd|
 |MIPS|Factorial function|
 |MIPS|Fizz Buzz|
