@@ -1,10 +1,12 @@
-########################################################
-# Project Euler 001                                    #
-# # The sum of all multiples of 3 and 5 less than 1000 #
-# MIPS Assembly targetings MARS                        #
-# By Keith Stellyes                                    #
-# August 25, 2016                                      #
-########################################################
+#############################################################################
+# Project Euler 001                                                         #
+# # The sum of all multiples of 3 and 5 less than 1000                      #
+# MIPS Assembly targeting MARS                                              #
+# By Keith Stellyes                                                         #
+# August 25, 2016                                                           #
+# I give a very in-depth explanation in the Java implementation's comments. #
+#############################################################################
+
 
 .text
 	li $a0,999
