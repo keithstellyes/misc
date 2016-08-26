@@ -7,6 +7,7 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 |Language|Problem|
 |---|---|
 |Brainf|Array data structure|
+|C\#|Fizzbuzz (Parameters defined at runtime)|
 |MIPS|99 Bottles of Beer on the Wall|
 |MIPS|Even or Odd|
 |MIPS|Factorial function|
