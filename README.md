@@ -6,12 +6,12 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 
 |Language|Problem|
 |---|---|
+|Assembly (MIPS)|99 Bottles of Beer on the Wall|
+|Assembly (MIPS)|Determine if a string is numeric|
+|Assembly (MIPS)|Even or Odd|
+|Assembly (MIPS)|Factorial function|
+|Assembly (MIPS)|Fizz Buzz|
+|Assembly (MIPS)|Guess the number|
+|Assembly (MIPS)|String length|
 |Brainf|Array data structure|
 |C\#|Fizzbuzz (Parameters defined at runtime)|
-|MIPS|99 Bottles of Beer on the Wall|
-|MIPS|Determine if a string is numeric|
-|MIPS|Even or Odd|
-|MIPS|Factorial function|
-|MIPS|Fizz Buzz|
-|MIPS|Guess the number|
-|MIPS|String length|
