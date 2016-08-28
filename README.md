@@ -9,8 +9,8 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 |Brainf|Array data structure|
 |C\#|Fizzbuzz (Parameters defined at runtime)|
 |MIPS|99 Bottles of Beer on the Wall|
-|MIPS|Copy a string|
 |MIPS|Even or Odd|
 |MIPS|Factorial function|
 |MIPS|Fizz Buzz|
 |MIPS|Guess the number|
+|MIPS|String length|
