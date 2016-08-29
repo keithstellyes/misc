@@ -7,6 +7,7 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 |Language|Problem|
 |---|---|
 |Assembly (MIPS)|99 Bottles of Beer on the Wall|
+|Assembly (MIPS)|Copy string|
 |Assembly (MIPS)|Determine if a string is numeric|
 |Assembly (MIPS)|Even or Odd|
 |Assembly (MIPS)|Factorial function|
