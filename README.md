@@ -13,6 +13,7 @@ Also, many of these code snippets were written as [Rosetta Code](http://rosettac
 |Assembly (MIPS)|Factorial function|
 |Assembly (MIPS)|Fizz Buzz|
 |Assembly (MIPS)|Guess the number|
+|Assembly (MIPS)|Reverse a String|
 |Assembly (MIPS)|String length|
 |Brainf|Array data structure|
 |C\#|Fizzbuzz (Parameters defined at runtime)|
