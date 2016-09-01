@@ -1,6 +1,6 @@
 ; AUTHOR: Keith Stellyes
 ; WRITTEN: August 31, 2016
-; NASM syntax, x86-64 Linux, calls GCC libs for stdin/stdout
+; NASM syntax, x86-64 Linux, calls C libs for stdin/stdout
 ; Very basic, take in two integers, then print the result. 
 ; TO COMPILE AND RUN: nasm -felf64 a_plus_b.asm && gcc a_plus_b.o && ./a.out
 
