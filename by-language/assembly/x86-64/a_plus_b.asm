@@ -14,18 +14,18 @@ section .data
    out_format: db "%d + %d = %d",10,0
 
 section .bss
-   x resb 4
+   x resb 4   ;we need a place in memory for our integers, for scanf and all
    y resb 4
 
 section .text
 main:
-   mov rdi, x_msg
+   mov rdi, x_msg ;set inital printf arg to print "x = "
    mov al, 0
    call printf
 
-   mov rsi, x
-   mov rdi, format
-   mov rax, 0
+   mov rsi, x      ;first arg for scanf, the addr of where to store
+   mov rdi, format ;formatting for scanf
+   mov rax, 0      ;Need to declare floating points being used, none so...
    call scanf
 
    mov rdi, y_msg
@@ -37,13 +37,13 @@ main:
    mov rax, 0
    call scanf
 
-   mov rdi,out_format
-   mov rsi,[x]
-   mov rdx,[y]
-   mov rcx,0  ;make sure it's 0!
-   add rcx,rsi
-   add rcx,rdx
-   mov rax,0
-   call printf 
+   mov rdi,out_format ;set first printf arg, "%d + %d = %d"
+   mov rsi,[x]        ;second printf arg, x
+   mov rdx,[y]        ;third printf arg, y
+   mov rcx,0          ;make sure it's 0! Or else, math will be wrong :)
+   add rcx,rsi        ;add x into result 
+   add rcx,rdx        ;add y into result (x+y)
+   mov rax,0 
+   call printf        ;printf("%d + %d = %d",x,y,x+y) 
 
    ret
