@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #Gets a catfact
 #Demonstrates JSON API usage
+#NOTE: requires jq (only about 100 kB and comes in most repos, incl. Debian)
 
 #Download the raw JSON, then get the value we want (at key:facts)
 STR="$(curl -s http://catfacts-api.appspot.com/api/facts | jq '.facts' -M)"
