@@ -14,14 +14,14 @@ do while (i <= 100)
 
     if (modresult_three == 0) then
         if (modresult_five == 0) then
-            write(*,*) 'FizzBuzz'
+            print*,"FizzBuzz"
         else
-            write(*,*) 'Fizz'
+            print*,'Fizz'
         endif
     elseif (modresult_five == 0) then
-        write(*,*) 'Buzz'
+        print*,'Buzz'
     else
-        write(*,*)i
+        write(*, '(i0)'), i
     endif
     i = i + 1
 
